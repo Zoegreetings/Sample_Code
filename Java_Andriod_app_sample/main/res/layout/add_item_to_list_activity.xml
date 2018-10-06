@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/by_type_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/by_type" />
+
+        <Button
+            android:id="@+id/by_name_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/by_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/grocery_name_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            android:text="TextView"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ExpandableListView
+            android:paddingTop="5dp"
+            android:id="@+id/item_type_expandable_list_view"
+            android:groupIndicator="@null"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="20dp"
+            android:headerDividersEnabled="false"
+            android:paddingBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear_all_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/clear_all_checks"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/delete_item_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/delete" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

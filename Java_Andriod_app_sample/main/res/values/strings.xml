@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GLM</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_button">Add</string>
+    <string name="alert_dialog_create_new_grocery_list">Create New Grocery List</string>
+    <string name="name_text_view">Name :</string>
+    <string name="rename_grocery_list_text_view">Rename Grocery List</string>
+    <string name="select_list_text_view">Selected List Name</string>
+    <string name="new_list_name_text_view">New List Name</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="alert_dialog_rename_new_grocery_list">Rename Grocery List</string>
+    <string name="create_list_button">Create List</string>
+    <string name="rename_list_button">Rename List</string>
+    <string name="grocery_list_text_view">Grocery List</string>
+    <string name="create_new_grocery_list_text_view">Create New Grocery List</string>
+    <string name="delete_confirmation_text_view">Delete Confirmation</string>
+    <string name="confirmation_text_view">Are you sure you want to delete your selection?</string>
+    <string name="uncheck_confirmation_text_view">Uncheck Confirmation</string>
+    <string name="uncheck_confirmation_text_view_text">Are you sure you want to uncheck all?</string>
+    <string name="yes_button">Yes</string>
+    <string name="alert_dialog_delete_grocery_list">Delete Grocery List</string>
+    <string name="by_name">+ By Name</string>
+    <string name="by_type">+ By Type</string>
+    <string name="clear_all_checks">Clear All Checks</string>
+    <string name="delete">Delete</string>
+    <string name="add_by_type">Add By Type</string>
+    <string name="item_type">Item Type</string>
+    <string name="item_name">Item Name</string>
+    <string name="add_by_name">Add by name</string>
+    <string name="quantity">Quantity</string>
+    <string name="pick_item_type_for">Pick item type for :</string>
+    <string name="enter_quantity_for">Enter Quantity for</string>
+    <string name="modify_quantity">Modify Quantity</string>
+    <string name="new_quantity">New Quantity</string>
+    <string name="select_item_type">Select Item Type</string>
+    <string name="select_item_name">Select Item Name</string>
+</resources>
