@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Student Demand Setting Page</title>
+	<link rel="Stylesheet" type="text/css" href="ConstraintStyle.css">
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/stu_input.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome $(sessionStorage.userName)</h1>
+      <h2>Please enter your preferences:</h2>
+	  <link rel="stylesheet" href="ConstraintStyle.css"/>	  
+    </header>
+   
+   <div> 
+   		<input type="button" name="homeButton" id="homeButton" value="Back To Home" onclick="window.location.href='admin_welcome.html'"/>
+
+   </div>
+   <form id="adminStuHist" class="fields" method="POST">   
+   		
+	<fieldset>
+		  <br/> 		
+			<br/>
+			Student Id
+		 	<input type="text" name="studentId" id="studentId">
+			<br/>
+			<input type="button" name="query" id="query" value="query">			  
+		<br/>
+		<br/>	
+		
+		
+		
+		</fieldset>
+	</form>
+	 <div id="anotherSection">   
+            
+                 <div id="adminStuHistResponse"></div>       
+    </div>   
+
+  </body>
+</html>
+

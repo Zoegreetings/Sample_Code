@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*.TableContainer{ overflow:auto; width: 1000px;height: 300px; }
+.TATableContainer{ overflow:auto; width: 1000px;height: 300px; }
+.CourseTableContainer{ overflow:auto; width: 1000px;height: 350px; }
+.ProfTableContainer{ overflow:auto; width: 700px;height: 800px; }
+.StudentTableContainer{ overflow:auto; width: 700px;height: 800px; }*/
+
+.fields {
+    position: relative;
+    overflow: hidden;
+}
+fieldset {
+    display: block;
+    margin: 20px 30px;
+    float: left;
+}
+.fields2{
+    position: relative;
+    overflow: hidden;
+}
+

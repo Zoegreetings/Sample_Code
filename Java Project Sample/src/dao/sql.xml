@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>add all sqls here</comment>
+
+	<entry key="STUDENT_SCHEDULE">
+			SELECT u.userId, s.preferredSchedule
+			FROM Project3.PreferredSchedule s
+			INNER JOIN Project3.UserRoles u ON s.userId = u.userId
+			AND u.roleId =5
+			WHERE s.dirty =0	
+	</entry>
+	
+	<entry key="STUDENT_RECO_DATA_ALL">
+			SELECT * FROM Project3.Recommendations
+				
+	</entry>
+
+	
+	
+</properties>

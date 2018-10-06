@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Administrator professor setting</title>
+	<link rel="Stylesheet" type="text/css" href="ConstraintStyle.css">
+	
+	<link href="js/jquery-ui.css" rel="stylesheet" type="text/css" />   
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	
+  </head>
+  <body>
+    <header>
+      <h1>Welcome Admin</h1>
+	  <link rel="stylesheet" href="ConstraintStyle.css"/>  
+    </header>
+    <form action="admin_welcome.html">
+       <input type="submit" value="Back">
+    </form>
+    
+    <br/>
+    <style>
+      legend {
+        color: black;
+      }
+      
+      
+        .legend4{
+        font-size: 24px;
+	font-weight:bold;
+      }
+     
+  </style>
+
+  <form id="profForm" class="fields">
+	
+	<fieldset>
+	<legend class="legend4">Professor Config</legend>
+	
+	<div class="ProfTableContainer">
+	<table id="Table_Prof" style="empty-cells:hide;" border="1"   cellpadding="1" cellspacing="1">
+	<thead>
+    <tr>
+        <th>Course</th><th>Course ID</th><th>Audrey Berger</th><th>Robert Ortiz</th><th>Clarence Mills</th><th>Cynthia Barker</th><th>Gertrude King</th><th>Robert Caldwell</th><th>William Joshson</th><th>Kathy Smith</th><th>Kenneth Duncan</th><th>Katherine Armstrong</th>
+    </tr>
+	</thead>
+	<tbody>
+    <tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Advanced Operating System
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            1
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp1">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp2">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp3">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp4">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp5">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp6">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp7">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp8">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp9">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp10">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computer Networks
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            2
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp11">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp12">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp13">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp14">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp15">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp16">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp17">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp18">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp19">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp20">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Software Development Process
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            3
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp21">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp22">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp23">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp24">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp25">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp26">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp27">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp28">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp29">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp30">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Machine Learning
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            4
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp31">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp32">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp33">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp34">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp35">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp36">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp37">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp38">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp39">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp40">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            High Performance Computer Architecture
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            5
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp41">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp42">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp43">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp44">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp45">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp46">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp47">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp48">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp49">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp50">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Software Architecture and Design
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            6
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp51">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp52">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp53">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp54">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp55">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp56">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp57">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp58">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp59">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp60">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Intro to Health Informatics
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            7
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp61">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp62">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp63">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp64">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp65">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp66">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp67">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp68">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp69">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp70">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computability, Complexity and algorithum
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            8
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp71">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp72">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp73">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp74">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp75">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp76">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp77">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp78">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp79">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp80">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Knowledge-based Artificial Intelligence
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            9
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp81">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp82">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp83">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp84">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp85">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp86">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp87">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp88">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp89">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp90">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computer Vision
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            10
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp91">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp92">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp93">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp94">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp95">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp96">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp97">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp98">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp99">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp100">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computational Photography
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            11
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp101">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp102">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp103">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp104">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp105">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp106">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp107">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp108">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp109">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp110">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Introduction to Operating System
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            12
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp111">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp112">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp113">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp114">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp115">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp116">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp117">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp118">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp119">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp120">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Artificial Intelligence for Robotics
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            13
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp121">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp122">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp123">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp124">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp125">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp126">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp127">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp128">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp129">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp130">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Introduction to Information Security
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            14
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp131">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp132">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp133">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp134">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp135">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp136">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp137">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp138">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp139">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp140">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            High Performance Computing
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            15
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp141">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp142">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp143">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp144">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp145">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp146">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp147">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp148">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp149">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp150">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Machine Learning for Trading
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            16
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp161">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp162">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp163">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp164">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp165">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp166">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp167">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp168">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp169">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp170">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Special Topics: Reforcement Learning
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            17
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp171">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp172">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp173">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp174">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp175">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp176">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp177">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp178">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp179">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp180">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+           Special Topics: Big Data
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            18
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp181">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp182">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp183">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp184">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp185">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp186">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp187">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp188">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp189">    
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkp190">    
+        </td>
+    </tr>
+	</tbody>
+	</table>
+	</div>
+	<br/>
+	<input type="submit" id="profButton" name="submit2" value="save">
+
+	</fieldset>
+	
+	
+  </body>
+</html>

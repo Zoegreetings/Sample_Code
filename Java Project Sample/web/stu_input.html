@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Student Demand Setting Page</title>
+	<link rel="Stylesheet" type="text/css" href="ConstraintStyle.css">
+	<link href="js/jquery-ui.css" rel="stylesheet" type="text/css" />   
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/stu_input.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome Student</h1>
+      <h2>Please enter your preferences:</h2>
+	  <link rel="stylesheet" href="ConstraintStyle.css"/>	  
+    </header>
+   
+   <div> 
+   		<input type="button" name="homeButton" id="homeButton" value="Back To Home" onclick="window.location.href='stu_welcome.html'"/>
+   		<input type="button" name="recoButton" id="recoButton" value="Check Recommendation"/>
+   </div>
+   <form id="demandForm" class="fields" method="POST">   
+   		
+	<fieldset>
+		  <br/>
+		 
+		  Num of desired courses:
+		  <select id="courseCount">
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		  </select>
+			<br/>
+			Desired course id list(comma separated)
+		 	<input type="text" name="desiredcourselist" id="desiredcourselist">
+			<br/>
+			<input type="button" name="saveButton" id="saveButton" value="submit">			  
+		<br/>
+		<br/>	
+		
+		
+		
+		</fieldset>
+	</form>
+	
+  </body>
+  
+   <div id="anotherSection">   
+            
+                 <div id="ajaxResponse"></div>       
+    </div>
+    <div id="anotherSection2">
+                 <div id="ajaxResponse2"></div>       
+    </div>      
+  
+</html>
+

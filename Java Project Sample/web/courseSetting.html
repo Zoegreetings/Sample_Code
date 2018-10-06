@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Administrator Course Availability Setting</title>
+	<link rel="Stylesheet" type="text/css" href="ConstraintStyle.css">
+	<link href="js/jquery-ui.css" rel="stylesheet" type="text/css" />   
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+  </head>
+  
+  <div id="anotherSection">  
+            
+                 <div id="courseSettingsSaveResponse"></div>       
+    </div>   
+  
+  <body>
+    <header>
+      <h1>Welcome Admin</h1>
+	  <link rel="stylesheet" href="ConstraintStyle.css"/>  
+    </header>
+    <form action="admin_welcome.html">
+       <input type="submit" value="Back">
+    </form>
+    
+    <br/>
+    <style>
+      legend {
+        color: black;
+      }
+      
+        .legend3{
+        font-size: 24px;
+	font-weight:bold;
+      }
+  </style>
+  
+  	 
+
+  <form id="courseForm" class="fields" method="POST">
+	<form class="fields2">
+	<fieldset>
+	<legend class="legend3">Course Config</legend>
+	
+	<div class="CourseTableContainer">
+	<table id="Table_Course" style="empty-cells:hide;" border="1"   cellpadding="1" cellspacing="1">
+	<thead>
+    <tr>
+        <th>Course name</th><th>Course ID</th><th>Availability</th>
+    </tr>
+	</thead>
+	<tbody>
+    <tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Advanced Operating System
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            1
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input type="checkbox" name="checkc1">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computer Networks
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+           2
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc2">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Software Development Process
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            3
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc3">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Machine Learning
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            4
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc4">  			
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            High Performance Computer Architecture
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+           5
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc5">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Software Architecture and Design
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            6
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc6">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Intro to Health Informatics
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            7
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc7">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computability, Complexity and algorithum
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            8
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc8">  			
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Knowledge-based Artificial Intelligence
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            9
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc9">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computer Vision
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            10
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc10">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Computational Photography
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            11
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc11">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Introduction to Operating System
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            12
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc12">    
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Artificial Intelligence for Robotics
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            13
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc13">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Introduction to Information Security
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            14
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc14">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            High Performance Computing
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+           15
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc15">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Machine Learning for Trading
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            16
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc16">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+            Special Topics: Reforcement Learning
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            17
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+           <input class="checkbox" type="checkbox" name="checkc17">     
+        </td>
+    </tr>
+	<tr>
+        <td style="text-align: center; vertical-align: middle;">
+           Special Topics: Big Data
+        </td>
+		<td style="text-align: center; vertical-align: middle;">
+            18
+        </td>
+        
+		<td style="text-align: center; vertical-align: middle;">
+            <input class="checkbox" type="checkbox" name="checkc18">     
+        </td>
+    </tr>
+	</tbody>
+	</table>
+	</div>
+	<br/>
+	<input type="submit" name="submitcourse" id="courseButton" value="save">
+	
+	</fieldset>
+</form>
+	
+	
+	
+  </body>
+</html>

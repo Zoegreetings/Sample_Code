@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Interface</title>
+	<link rel="Stylesheet" type="text/css" href="LoginStyle.css">
+	
+	<script>
+	function goToWelcomePage(){		
+		window.location="stu_welcome.html";
+		
+	}
+	
+	</script>
+	
+	<link href="js/jquery-ui.css" rel="stylesheet" type="text/css" />   
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript" src="js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Student Course Pairing System</h1>
+    </header>
+	<form id="loginForm" method="POST">
+	 <fieldset>
+	  <div>
+	    <label for="User_Name">User Id:</label><input type="text" name="User_Name" id="User_Name" placeholder="enter user name" required=""><br/>
+	    <br/>
+	  </div>
+	  <div>
+	    <label for="Passwords">Password:</label><input type="password" name="Password" id="Password" placeholder="enter password" required=""><br/>
+	    <br/>
+      </div>
+	  <div>
+	    Role:
+	    <select id="role">
+	    <option value="Student">Student</option>
+	    <option value="Admin">Admin</option>
+	    </select>
+	    <br/><br/>
+	  </div>
+	  <div>	    
+	    <input id="myButton" type="button" value="login" />
+		<input type="reset" name="reset" value="reset">
+		<a href="https://www.google.com/">forget password?</a>
+      </div>
+       </fieldset>
+	 </form>
+  </body>
+</html>
+  
